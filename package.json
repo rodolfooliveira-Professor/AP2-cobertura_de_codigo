@@ -6,6 +6,16 @@
   "scripts": {
     "test": "jest --coverage"
   },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "devDependencies": {
     "jest": "^29.0.0"
   }
