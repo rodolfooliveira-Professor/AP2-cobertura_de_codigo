@@ -67,4 +67,12 @@ describe("Order class - cobertura total", () => {
     order.complete();
     expect(() => order.cancel()).toThrow("Completed order cannot be cancelled");
   });
+
+  test("constructor com parâmetros padrão", () => {
+  const orderDefault = new Order(2);
+  expect(orderDefault.items).toEqual([]);
+  expect(orderDefault.paymentMethod).toBe("cash");
+  expect(orderDefault.status).toBe("created");
+  expect(orderDefault.total).toBe(0);
+});
 });
