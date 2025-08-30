@@ -8,3 +8,9 @@ Tarefa: Escreva testes em Jest que garantam 100% de cobertura de todas as métri
 
 Entrega: Suba o arquivo de testes junto com o código no repositório.
 
+## Instruções para os alunos
+
+- Clone ou faça fork deste repositório.  
+- Crie testes automatizados em `__tests__/order.test.js` usando Jest.  
+- Seu objetivo é atingir 100% de cobertura (linhas, ramos, funções, instruções).  
+- Submeta os testes via **pull request** para este repositório.
